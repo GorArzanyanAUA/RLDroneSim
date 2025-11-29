@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
-=======================================
+# RLDroneSim Documentation Repository
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository hosts the documentation for the **RLDroneSim** project. It is intended to be used with ReadTheDocs to provide structured, accessible documentation for the platform.
 
-Read the tutorial here:
+See the documentation pages for full details regarding the system architecture, usage, and development workflow.
 
-https://docs.readthedocs.io/en/stable/tutorial/
+The main RLDroneSim codebase will be made public soon — stay tuned.
