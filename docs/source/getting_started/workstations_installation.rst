@@ -42,7 +42,7 @@ Installation Steps
    docker exec -it pid_rl_container bash
    ```
 
-Setup for Windows with WSLG
+Setup for Ubuntu 22.04
 -------------------------
 This section describes how to set up the project on Windows using WSLG (Windows Subsystem for Linux GUI) for GUI applications.
 
@@ -50,29 +50,27 @@ Prerequisites
 -------------
 - Windows 11 with WSL2 and WSLG enabled
 - Docker Desktop for Windows installed
-- WSL2 distribution (Ubuntu 22.04 recommended)
-- WSLG support enabled
 
 Installation Steps
 ------------------
 1. **Clone the repository inside your WSL environment**
-   ```bash
-   git clone git@github.com:GorArzanyanAUA/pid_rl.git
+   ```
+   \ngit clone git@github.com:GorArzanyanAUA/pid_rl.git\n
    cd pid_rl
    ```
 
 2. **Build the Docker container using the WSLG-specific compose file**
-   ```bash
+   ```\n
    DOCKER_BUILDKIT=1 docker compose -f docker-compose-wslg.yml build
    ```
 
 3. **Start the container in detached mode**
-   ```bash
+   ```\n
    docker compose -f docker-compose-wslg.yml up -d
    ```
 
 4. **Enter the container**
-   ```bash
+   ```\n
    docker exec -it pid_rl_container bash
    ```
 
