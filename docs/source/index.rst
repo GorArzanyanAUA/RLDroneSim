@@ -1,9 +1,19 @@
 RLDroneSim Documentation
 ========================
 
-Welcome to the RLDroneSim documentation. This site covers how to get the
-environment running, the internal architecture, demos, tutorials, and
+Welcome to the RLDroneSim documentation.
+RLDroneSim is a realistic and extensible reinforcement learning (RL) platform designed 
+for developing agents that integrate seamlessly with widely used open-source Ardupilot UAV software stack.
+Built on Ardupilot SITL and Gazebo, the platform enables RL agents to operate on top of the existing Ardupilot firmware.
+This design allows augmentation of current UAV functionality—improving adaptability, robustness, 
+and autonomy with minimal integration effort.
+RLDroneSim offers a Gym-compatible environment, enabling rapid development and evaluation of RL methods 
+within a realistic simulation that reflects real-world UAV dynamics.
+
+This site covers how to get the environment running, the internal architecture, demos, tutorials, and
 directions for further research.
+
+Project repository: https://github.com/DavitGhazaryan/RLDroneSim
 
 .. toctree::
    :maxdepth: 2
