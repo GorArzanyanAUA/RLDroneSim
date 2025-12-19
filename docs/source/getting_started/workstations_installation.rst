@@ -17,25 +17,25 @@ Prerequisites
 Installation Steps
 ------------------
 1. **Clone the repository**
-   ```bash
+   ``bash
    git clone git@github.com:GorArzanyanAUA/pid_rl.git
    cd pid_rl
-   ```
+   ``
 
 2. **Configure X11 access for GUI applications**
-   ```bash
+   ``bash
    xhost +local:docker
-   ```
+   ``
 
 3. **Build the Docker container**
-   ```bash
+   ``bash
    DOCKER_BUILDKIT=1 docker-compose build
-   ```
+   ``
 
 4. **Start the container in detached mode**
-   ```bash
+   ``bash
    docker-compose up -d
-   ```
+   ``
 
 5. **Enter the container**
    ```bash
