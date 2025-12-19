@@ -54,31 +54,38 @@ Prerequisites
 Installation Steps
 ------------------
 1. **Clone the repository inside your WSL environment**
+
    ```
-   \ngit clone git@github.com:GorArzanyanAUA/pid_rl.git\n
+   git clone git@github.com:GorArzanyanAUA/pid_rl.git
    cd pid_rl
    ```
 
 2. **Build the Docker container using the WSLG-specific compose file**
-   ```\n
+
+   ```
    DOCKER_BUILDKIT=1 docker compose -f docker-compose-wslg.yml build
    ```
 
 3. **Start the container in detached mode**
-   ```\n
+
+   ```
    docker compose -f docker-compose-wslg.yml up -d
    ```
 
 4. **Enter the container**
-   ```\n
+
+   ```
    docker exec -it pid_rl_container bash
    ```
+
+Also, it is possible on Windows with WSLG, but preliminary tests have shown significant performance degredation.
 
 
 DEVELOPMENT NOTES!!!
 --------------------
 For now some of the files are being copied into the container at start time. Letter those will be set in the Dockerfile.
 Meanwhile, after creating the container you may need to rebuild the ArduCopter make the changed files take effect.
+
    ```bash
    ./waf clean
    ./waf configure --board sitl
