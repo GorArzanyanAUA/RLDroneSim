@@ -13,6 +13,20 @@ To start training, run:
 
    python rl_pid/examples/train_vectorized.py
 
+It is also possible to run multiple parralel training instances to perform multiple experiments with diffirent configurations.
+For that, use with argument ``N``.
+
+
+.. code-block:: bash
+
+   python rl_pid/examples/train_vectorized.py 2
+
+For the second instance a new time server with corresponding ``N`` should be started:
+
+.. code-block:: bash
+
+   /clock_node/build/sim_time_server 2
+
 The default training configuration is defined in:
 
 .. code-block:: text
