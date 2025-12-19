@@ -13,7 +13,7 @@ within a realistic simulation that reflects real-world UAV dynamics.
 This site covers how to get the environment running, the internal architecture, demos, tutorials, and
 directions for further research.
 
-Project repository: https://github.com/DavitGhazaryan/RLDroneSim
+Project repository: https://anonymous.4open.science/r/RLDroneSim-C815/README.md
 
 .. toctree::
    :maxdepth: 2
