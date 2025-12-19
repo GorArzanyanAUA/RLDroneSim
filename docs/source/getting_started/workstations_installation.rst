@@ -1,19 +1,21 @@
 Workstations installation
 =========================
 
-## Setup for Ubuntu 22.04
-
+Setup for Ubuntu 22.04
+-------------------------
 This project uses Docker for easy deployment and consistent environment setup. The configuration has been tested on Ubuntu 22.04 host machines with NVIDIA GPU support.
 
-### Prerequisites
+Prerequisites
+-------------
+
 
 - Docker and Docker Compose installed
 - NVIDIA GPU with compatible drivers (for GPU acceleration)
 - Linux host machine (recommended)
 - X11 server access for GUI applications
 
-### Installation Steps
-
+Installation Steps
+------------------
 1. **Clone the repository**
    ```bash
    git clone git@github.com:GorArzanyanAUA/pid_rl.git
@@ -40,19 +42,19 @@ This project uses Docker for easy deployment and consistent environment setup. T
    docker exec -it pid_rl_container bash
    ```
 
-## Setup for Windows with WSLG
-
+Setup for Windows with WSLG
+-------------------------
 This section describes how to set up the project on Windows using WSLG (Windows Subsystem for Linux GUI) for GUI applications.
 
-### Prerequisites
-
+Prerequisites
+-------------
 - Windows 11 with WSL2 and WSLG enabled
 - Docker Desktop for Windows installed
 - WSL2 distribution (Ubuntu 22.04 recommended)
 - WSLG support enabled
 
-### Installation Steps
-
+Installation Steps
+------------------
 1. **Clone the repository inside your WSL environment**
    ```bash
    git clone git@github.com:GorArzanyanAUA/pid_rl.git
@@ -75,7 +77,8 @@ This section describes how to set up the project on Windows using WSLG (Windows 
    ```
 
 
-### DEVELOPMENT NOTES!!!
+DEVELOPMENT NOTES!!!
+--------------------
 For now some of the files are being copied into the container at start time. Letter those will be set in the Dockerfile.
 Meanwhile, after creating the container you may need to rebuild the ArduCopter make the changed files take effect.
    ```bash
@@ -101,8 +104,7 @@ Also, new cpp code was added under clock_node, you may need to build it.
    ```
 For now you need to set the GZ_PARTITION env variable in the terminal where you run the node.
 
-### Troubleshooting
-
+Troubleshooting
+-----------------
 - **Different host OS**: The Dockerfile should work on any machine, but you may need to modify `docker-compose.yml` for non-Linux systems
 - **GPU compatibility**: If you encounter CUDA version issues, update the CUDA version in the Dockerfile to match your GPU
-- ****: If you encounter CUDA version issues, update the CUDA version in the Dockerfile to match your GPU
