@@ -9,4 +9,3 @@ to execute the main scripts. It also covers common problems and FAQs.
 
    workstations_installation
    running_scripts
-   troubleshooting_faq

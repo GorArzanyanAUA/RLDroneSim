@@ -81,7 +81,7 @@ Installation Steps
 Also, it is possible on Windows with WSLG, but preliminary tests have shown significant performance degredation.
 
 
-DEVELOPMENT NOTES!!!
+DEVELOPMENT NOTES
 --------------------
 For now some of the files are being copied into the container at start time. Letter those will be set in the Dockerfile.
 Meanwhile, after creating the container you may need to rebuild the ArduCopter make the changed files take effect.
