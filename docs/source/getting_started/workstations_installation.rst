@@ -38,9 +38,9 @@ Installation Steps
    ``
 
 5. **Enter the container**
-   ```bash
+   ``bash
    docker exec -it pid_rl_container bash
-   ```
+   ``
 
 Setup for Ubuntu 22.04
 -------------------------
@@ -55,28 +55,28 @@ Installation Steps
 ------------------
 1. **Clone the repository inside your WSL environment**
 
-   ```
+   ``
    git clone git@github.com:GorArzanyanAUA/pid_rl.git
    cd pid_rl
-   ```
+   ``
 
 2. **Build the Docker container using the WSLG-specific compose file**
 
-   ```
+   ``
    DOCKER_BUILDKIT=1 docker compose -f docker-compose-wslg.yml build
-   ```
+   ``
 
 3. **Start the container in detached mode**
 
-   ```
+   ``
    docker compose -f docker-compose-wslg.yml up -d
-   ```
+   ``
 
 4. **Enter the container**
 
-   ```
+   ``
    docker exec -it pid_rl_container bash
-   ```
+   ``
 
 Also, it is possible on Windows with WSLG, but preliminary tests have shown significant performance degredation.
 
