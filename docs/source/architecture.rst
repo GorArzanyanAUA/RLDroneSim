@@ -22,7 +22,7 @@ for reinforcement learning experiments.
    :align: center
    :alt: RLDroneSim architecture overview
 
-   *Figure: High-level architecture of the RLDroneSim platform.*
+   High-level architecture of the RLDroneSim platform.
 
 Core Components
 ---------------
