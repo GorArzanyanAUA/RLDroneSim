@@ -37,11 +37,6 @@ Architecture
 Read :doc:`Architecture <architecture>` for an overview of the main
 components of RLDroneSim, how they interact, and where to plug in your own code.
 
-Demos
------
-
-The :doc:`Demos <demos>` page lists ready-made scenarios and scripts you can
-run to sanity-check your setup and see typical use cases.
 
 Tutorials
 ---------
