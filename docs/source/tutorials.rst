@@ -193,11 +193,3 @@ Gazebo-specific parameters are defined separately.
 
 Disabling the GUI significantly improves training performance.
 Environmental effects such as wind should be defined directly in the SDF file.
-
-Summary
--------
-
-RLDroneSim uses a centralized configuration system to expose all relevant aspects
-of reinforcement learning experiments. By modifying a single YAML file, users can
-change control objectives, observation and action spaces, learning algorithms,
-reward functions, and simulation parameters without touching the codebase.
