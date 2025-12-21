@@ -18,11 +18,11 @@ The platform consists of three main components:
 These components are synchronized to form a closed-loop control system suitable
 for reinforcement learning experiments.
 
-.. figure:: /_static/architecture_placeholder.png
+.. figure:: docs/resources/ArdupilotEnv.png
    :align: center
    :alt: RLDroneSim architecture overview
 
-   *Figure: High-level architecture of the RLDroneSim platform (placeholder).*
+   *Figure: High-level architecture of the RLDroneSim platform.*
 
 Core Components
 ---------------
