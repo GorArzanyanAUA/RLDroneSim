@@ -21,8 +21,7 @@ Project repository: https://anonymous.4open.science/r/RLDroneSim-C815/README.md
 
    getting_started/index
    architecture
-   demos
-   tutorials
+   tutorials/index
    further_research
 
 Getting started

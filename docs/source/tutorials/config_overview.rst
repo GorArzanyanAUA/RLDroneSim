@@ -1,5 +1,6 @@
-Tutorials
-=========
+Experiment Configuration
+========================
+
 
 This tutorial explains how to customize reinforcement learning experiments in
 RLDroneSim using the YAML-based configuration system. All aspects of training,

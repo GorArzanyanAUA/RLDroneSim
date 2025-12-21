@@ -1,6 +1,13 @@
-This section provides a list of tutorials to explain setting up and tracking your custom experiments in RLDroneSim.
+Tutorials
+=========
+
+This section contains step-by-step tutorials for using RLDroneSim.
+Each tutorial focuses on a specific aspect of the workflow, from
+experiment configuration to training and evaluation.
 
 .. toctree::
    :maxdepth: 1
 
-   experiment_config
+   config_overview
+   training_workflow
+   evaluation
